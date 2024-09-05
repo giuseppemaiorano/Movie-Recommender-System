@@ -36,3 +36,6 @@ Per eseguire questo notebook, sono necessari i seguenti pacchetti Python:
 Puoi installarli utilizzando il comando:
 ```bash
 pip install pandas scikit-learn numpy matplotlib
+
+```bash
+git clone https://github.com/tuo-username/movie-recommender-system.git
