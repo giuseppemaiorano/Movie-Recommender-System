@@ -34,6 +34,6 @@ Per eseguire questo notebook, sono necessari i seguenti pacchetti Python:
 - `matplotlib` (facoltativo, se desideri visualizzare i dati)
 
 Puoi installarli utilizzando il comando:
-\```bash
+```bash
 pip install pandas scikit-learn numpy matplotlib
-\```
+
