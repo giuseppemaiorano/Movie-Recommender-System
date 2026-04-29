@@ -1,5 +1,48 @@
 # Movie Recommender System
 
+This project implements a **movie recommender system** using Python and machine learning libraries. The goal is to suggest movies similar to a title provided by the user, based on a movie dataset.
+
+## Features
+
+- Loads a movie dataset containing titles, genres, and other relevant information.
+- Uses content-based similarity techniques to generate movie recommendations.
+- Extracts movie information to provide relevant suggestions based on a given title.
+- Displays recommended movies in response to the user's query.
+
+## Notebook Structure
+
+1. **Importing the required libraries**  
+   The notebook uses libraries such as `pandas`, `scikit-learn`, and other tools for data preprocessing and similarity computation.
+
+2. **Loading and preprocessing the data**  
+   The dataset is loaded from a CSV file containing columns such as `movieId`, `title`, and `genres`.  
+   The data is cleaned and preprocessed before being used by the recommendation system.
+
+3. **Building the recommendation system**  
+   Cosine similarity is used to calculate how similar movies are to each other based on their genres.  
+   The project implements a `get_recommendations()` function that takes a movie title as input and returns a list of recommended movies.
+
+4. **Running the system**  
+   The notebook includes examples using movie titles such as `"Apocalypse Now"` and `"Children of Men"`, with the recommendations displayed in a table format.
+
+## Requirements
+
+To run this notebook, you need the following Python packages:
+
+- `pandas`
+- `scikit-learn`
+- `numpy`
+- `matplotlib` optional, if you want to visualize the data
+
+You can install them using:
+
+
+```bash
+pip install pandas scikit-learn numpy matplotlib
+```
+
+# Movie Recommender System
+
 Questo progetto implementa un **sistema di raccomandazione di film** utilizzando Python e librerie di machine learning. L'obiettivo è consigliare film simili a quelli specificati dall'utente basandosi su un insieme di dati di film.
 
 ## Funzionalità
