@@ -1,4 +1,4 @@
-🇬🇧 🇺🇸 # Movie Recommender System
+# Movie Recommender System
 
 This project implements a **movie recommender system** using Python and machine learning libraries. The goal is to suggest movies similar to a title provided by the user, based on a movie dataset.
 
